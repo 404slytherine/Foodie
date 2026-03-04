@@ -10,14 +10,16 @@ import RecipeDetails from './components/RecipeDetails.jsx'
 import Favourites from './components/Favourites.jsx'
 import Recipes from './components/Recipes.jsx'
 import Privacy from './components/Privacy.jsx'
-
+import RouteTracker from "./RouteTracker";
 function App() {
 
   return (
     <>
     <RecipeProvider>
       <Router>
+         <RouteTracker />
         <Routes>
+         
           <Route path='/' element={<Layout/>} >
             <Route path='' element={<Home />} />
             <Route path='contact' element={<Contact />} />
