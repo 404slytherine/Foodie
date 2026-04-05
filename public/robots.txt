@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://food4lyf.netlify.app/sitemap.xml
+
+# Optional: block unwanted paths (uncomment if needed)
+# Disallow: /admin/
+# Disallow: /private/
